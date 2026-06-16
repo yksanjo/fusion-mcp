@@ -1,0 +1,18 @@
+{
+  "name": "fusion-mcp",
+  "version": "0.1.0",
+  "description": "MCP server exposing OpenRouter Fusion (multi-model panel + judge synthesis) as a tool any agent can call.",
+  "type": "module",
+  "bin": {
+    "fusion-mcp": "./server.mjs"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node test.mjs"
+  },
+  "license": "MIT",
+  "author": "yoshi@musicailab.com",
+  "engines": {
+    "node": ">=18"
+  }
+}
